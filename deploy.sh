@@ -13,8 +13,8 @@ pnpm install --frozen-lockfile || pnpm install
 pnpm run build
 
 # Restart the PM2 process
-pm2 stop lorenzo || true
-pm2 delete lorenzo || true
-pm2 start pnpm --name "lorenzo" -- start
+pm2 stop xenon || true
+pm2 delete xenon || true
+pm2 start pnpm --name "xenon" -- start
 pm2 save
 

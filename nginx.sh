@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
-DOMAIN="lorenzo.finance"
-APP_PORT=3008
+DOMAIN="xenonacademy.org"
+APP_PORT=4001
 NGINX_AVAILABLE="/etc/nginx/sites-available/$DOMAIN"
 NGINX_ENABLED="/etc/nginx/sites-enabled/$DOMAIN"
 

@@ -16,10 +16,12 @@ export default defineConfig({
     server: {
       port: 4001,
       strictPort: true,
+      allowedHosts: ["xenonacademy.org", "www.xenonacademy.org"],
     },
     preview: {
       port: 4001,
       strictPort: true,
+      allowedHosts: ["xenonacademy.org", "www.xenonacademy.org"],
     },
   },
 });
